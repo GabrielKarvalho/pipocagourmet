@@ -1,5 +1,5 @@
 // Service worker: deixa o app abrir sem internet e receber atualizações quando houver conexão.
-const V = "pg-v1";
+const V = "pg-v5";
 const CORE = ["./", "index.html", "jspdf.umd.min.js", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", e => {
